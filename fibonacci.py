@@ -1,6 +1,6 @@
 print('moikka')
 
-n = 1798
+n = int(input())
 
 #print(baobaofibs[i - 1])
 #print(baobaofibs[i - 2])
@@ -20,8 +20,3 @@ def fibonacci (n):
     i = len(baobaofibs)
     
     print (baobaofibs[i-1])
-
-
-fibonacci(n)
-
-            
