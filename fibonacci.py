@@ -20,3 +20,5 @@ def fibonacci (n):
     i = len(baobaofibs)
     
     print (baobaofibs[i-1])
+
+fibonacci(n)
