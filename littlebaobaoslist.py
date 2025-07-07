@@ -13,10 +13,11 @@ for i, number in enumerate(littlebaobaoslist):
     i+=x
     x+=1
 
-#'*'in front of 
+#'*'in front of words in list seperats every letters 
 cutelist = [*'love'*5,*'baobao'*5]
 print (cutelist)
 
+#connect words together 
 lovelist = ['i','love','you','too','baobao'*500]
 print (lovelist[0]+' '+lovelist[1]*500 + lovelist[4])
 print (len(lovelist))
